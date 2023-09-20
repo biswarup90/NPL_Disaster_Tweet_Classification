@@ -9,7 +9,15 @@ Welcome to our GitHub repository for the Kaggle competition on Natural Language 
 The [Disaster Tweet Classification competition](https://www.kaggle.com/competitions/nlp-getting-started) tasks participants with developing a machine learning model that can automatically classify tweets as either disaster-related or not. With the proliferation of social media, being able to quickly identify and prioritize disaster-related information is crucial for effective response efforts.
 
 **Our Approach:**
-The approach has been well documented in the code with useful comments. Please follow that.
+The approach has been well documented in the code with useful comments. Here are the broad steps we have followed:
+- Fetch data
+- Pre-process data
+- Data cleanup such as remove stop words, special characters, emojis, perform lemmatization
+- Vectorize words
+- Use word embedding from Word2Vec
+- Model using various classifiers such as Naive Bayes, RandomForest, RidgeClassifier & BaggingClassifier
+- Use a variant of DistilledBert model from HuggingFace
+- Submit prediction on test data set
 
 **Repository Contents:**
 - **Notebook:** 
